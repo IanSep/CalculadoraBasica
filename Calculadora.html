@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="es">
+	<link rel="stylesheet" href="style.css">
+	<script src="logica.js" defer></script>
+	<table>
+		<thead>
+			<tr>
+				<th colspan="4">
+					<input class="pantalla" id="pantalla" type="text" value="" readonly>
+				</th>
+			</tr>
+
+		</thead>
+		<tbody>
+			<tr>
+				<td>
+					<button class ="numero" onclick="presionarNumero('7')">
+						7
+					</button>
+				</td>
+				<td>
+					<button class ="numero" onclick="presionarNumero('8')">
+						8
+					</button>
+				</td>
+				<td>
+					<button class ="numero" onclick="presionarNumero('9')">
+						9
+					</button>
+				</td>
+				<td>
+					<button class ="operacion" onclick ="presionarOperacion('*')">
+						*
+					</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class ="numero" onclick="presionarNumero('4')">
+						4
+					</button>
+				</td>
+				<td>
+					<button class ="numero" onclick="presionarNumero('5')">
+						5
+					</button>
+				</td>
+				<td>
+					<button class ="numero" onclick="presionarNumero('6')">
+						6
+					</button>
+				</td>
+				<td>
+					<button class ="operacion" onclick="presionarOperacion('-')">
+						-
+					</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class ="numero" onclick="presionarNumero('1')">
+						1
+					</button>
+				</td>
+				<td>
+					<button class ="numero" onclick="presionarNumero('2')">
+						2
+					</button>
+				</td>
+				<td>
+					<button class ="numero" onclick="presionarNumero('3')">
+						3
+					</button>
+				</td>
+				<td>
+					<button class ="operacion" onclick="presionarOperacion('+')">
+						+
+					</button>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<button class ="operacion" onclick="borrarTodo()">
+						C
+					</button>
+				</td>
+				<td>
+					<button class ="numero" onclick="presionarNumero('0')">
+						0
+					</button>
+				</td>
+				<td>
+					<button class ="operacion" onclick="presionarOperacion('/')">
+						/
+					</button>
+				</td>
+				<td>
+					<button class ="operacion" onclick="calcularResultado()">
+						=
+					</button>
+				</td>
+			</tr>
+		</tbody>
+	</table>
+</html>
+
